@@ -3,8 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .container {
-    height: 100vh;
     background: #dfe4e8;
 }
 .navBar {
@@ -39,8 +41,95 @@ li>a {
 }
 li.activ {
     padding: 10px;
-    background: chocolate;
+    background: #d62d21;
 }
 li.activ a { 
     color: rgb(255, 255, 255);
 }
+.containers{
+    max-width: 1300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    background:#dfdfdd;
+    }
+    
+.containt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+.small_container{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    max-width: 1080px;
+    overflow: hidden;
+    margin: 50px;
+    
+    }
+    
+    .col-2{
+    flex-basis: 50%;
+    min-width: 300px; 
+    margin: auto; 
+
+  }
+    
+    .col-2 h1{
+    font-size: 35px;
+    margin: 25px 10px;
+    font-weight: bold;
+    color: #04243c;
+    }
+
+    .col-2 span{
+        font-size: 15px;
+        font-weight: bold;
+        margin: 0 10px;
+        margin-top: 25px;
+        color: #d62d21;
+       
+    }
+    
+    .col-2 p{
+    font-size: 15px;
+    margin: 10px;
+    
+    }
+    .col-2 h2{
+        font-size: 25px;
+        font-weight: normal;
+        color: black;
+        }
+
+    .col-2 img{
+    max-width: 100%;  
+    padding: 50px 50px 0px 50px;
+    }
+    
+    .btn{
+    display: inline-block;
+    border-radius: 3px ;
+    padding: 10px 30px;
+    margin: 25px 5px ;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border: 1px solid #d62d21;
+    
+    }
+    .btn2{
+        background:#d62d21;
+        color:#ffff;
+    }
+
