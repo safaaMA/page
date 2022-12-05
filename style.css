@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100vh;
+    background: #dfe4e8;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+.logo {
+    width: 8%;
+}
+.logo img {
+    width: 100%;
+    margin: 0px 0 0 12px;
+}
+nav {
+    width: 70%;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li {
+    display: block;
+    margin: 4px;
+}
+li>a {
+    font-family: sans-serif;
+    text-decoration: auto;
+    color: black;
+}
+li.activ {
+    padding: 10px;
+    background: chocolate;
+}
+li.activ a { 
+    color: rgb(255, 255, 255);
+}
